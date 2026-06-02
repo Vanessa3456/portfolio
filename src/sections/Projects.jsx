@@ -2,6 +2,7 @@ import { ArrowUpRight, Github, Globe, Smartphone } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const projects = [
+
   {
     title: "Pendo - Digital Counseling",
     description:
@@ -23,6 +24,15 @@ const projects = [
       mobile: "https://soko-tender.netlify.app/get-app.html",
     },
     github: "https://github.com/Vanessa3456/SokoTender",
+  },
+    {
+    title: "Aura AI Fashion Assistant",
+    description:
+      "A full-stack, AI-driven mobile app acting as a personalized stylist. Features a responsive Flutter frontend, a secure Django REST API, and Gemini 2.5 Vision integration to generate real-time outfit recommendations from user wardrobes.",
+    image: "/aura.jpg", /* Add a sleek screenshot to your public folder! */
+    tags: ["Flutter", "Django", "Gemini AI", "Cloudinary", "Python"],
+    link: "#", /* Add live deployment link if available */
+    github: "https://github.com/Vanessa3456/aura.git", /* Add GitHub repo link */
   },
   {
     title: "Harvest Goals",
@@ -126,14 +136,13 @@ export const Projects = () => {
                 </div>
               </div>
 
-              {/* content */}
+            {/* content */}
               <div className="p-6 space-y-4">
-                {/* CHANGED: div to a tag, added conditional href, and fixed arrow animation */}
                 <a
-                  href={project.links?.web || project.link || undefined}
+                  href={project.links?.web || (project.link !== "#" ? project.link : project.github)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`flex items-start justify-between ${project.link !== "#" || project.links ? "cursor-pointer" : "cursor-default"}`}
+                  className="flex items-start justify-between cursor-pointer"
                 >
                   <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">
                     {project.title}

@@ -93,7 +93,7 @@ export const Hero = () => {
               >
                 Contact <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton href="https://drive.google.com/file/d/1YsWlG2RmYbfpd6zhUU2H8mTI2ktQWQ1P/view?usp=sharing">
+              <AnimatedBorderButton href="https://drive.google.com/file/d/1s9_cRwi1KpjqksvhYiDtPtdRYfgUu-uj/view?usp=sharing">
                 <Download className="w-5 h-5" />
                 View Resume
               </AnimatedBorderButton>
@@ -127,11 +127,11 @@ export const Hero = () => {
             {/* The Glass Container */}
             <div className="relative glass max-w-md mx-auto rounded-3xl p-2">
               <div className="relative glass roudned-3xl p-2 glow-border">
-                <img
-                  src="/088A0176.jpg"
-                  alt="Vanessa"
-                  className="w-full aspect-[4/5] object-cover rounded-2xl"
-                />
+               <img
+  src="/088A0176.jpg"
+  alt="Vanessa"
+  className="w-full aspect-[4/5] object-cover rounded-2xl bg-surface [mask-image:linear-gradient(to_bottom,black_60%,transparent_100%)] [-webkit-mask-image:linear-gradient(to_bottom,black_60%,transparent_100%)]"
+/>
 
                 {/* floating badge */}
                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">

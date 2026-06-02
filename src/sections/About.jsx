@@ -1,6 +1,6 @@
 import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 
-const higlights = [
+const highlights = [
   {
     icon: Code2,
     title: "Full-Stack Dev",
@@ -13,8 +13,8 @@ const higlights = [
   },
   {
     icon: Users,
-    title: "Leadership",
-    description: "Experience leading research and backend development teams.",
+    title: "Executive Leadership", 
+    description: "Former Student Body VP. Experienced in stakeholder management and leading technical teams.", 
   },
   {
     icon: Lightbulb,
@@ -22,6 +22,7 @@ const higlights = [
     description: "Crafting digital solutions for real-world challenges.",
   },
 ];
+
 export const About = () => {
   return (
     <section id="about" className="py-32 relative overflow-hidden">
@@ -35,46 +36,36 @@ export const About = () => {
               </span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
+              Engineering robust systems,
               <span className="font-serif italic font-normal text-white">
-                one component at a time
+                {" "}designed for impact
               </span>
             </h2>
+            
             {/* small description */}
             <div className="space-y-6 text-muted-foreground  animate-fade-in animation-delay-200">
               <p>
-                I am a driven software developer specializing in both mobile and
-                full-stack web development. My passion lies in building
-                applications that solve real-world problems—whether that means
-                connecting communities or engineering complex backend systems.
+                For the past three years, my focus has been writing code that solves real-world problems, with expertise spanning both frontend and backend development. A proud highlight of this journey is <strong className="text-secondary-foreground">Pendo</strong>—a digital counseling platform I helped build to connect students with licensed mental health professionals.
               </p>
               <p>
-                I specialize in React, Flutter, Python, and Django, building
-                everything from interactive frontend interfaces to robust
-                database architectures using tools like Supabase. My approach
-                combines technical precision with a strong focus on delivering
-                seamless, user-centric experiences.
+                Whether through collaborative group projects or volunteer roles, I thrive in high-pressure environments, turning complex challenges into seamless digital solutions. These experiences have solidified my passion for building technology that makes a genuine impact.
               </p>
               <p>
-                When I'm not coding or leading project research, you'll find me
-                exploring concepts in digital forensics, studying the latest in
-                software engineering, or simply unwinding with a good match-3
-                puzzle game.
+                Beyond the screen, I have served in two major executive roles: <strong className="text-secondary-foreground">Vice President</strong> of the entire university student body, and <strong className="text-secondary-foreground">Female Representative</strong> for the Faculty of Computing and Informatics. As I await my graduation with a degree in Information Technology, I am eager to bring my blend of technical architecture and executive leadership to a forward-thinking engineering team.
               </p>
             </div>
 
             {/* Mission Statement */}
             <div className="p-6 glass-strong glow-border rounded-2xl border-l-4 border-primary animate-fade-in animation-delay-300">
               <p className="text-white italic leading-relaxed">
-                "My mission is to engineer robust, scalable software that solves
-                genuine challenges—creating accessible digital experiences that
-                empower communities and drive meaningful impact."
+                "Merging technical precision with executive leadership to architect software that scales, empowers, and delivers real-world value."
               </p>
             </div>
           </div>
+          
           {/* right column highlights*/}
           <div className="grid sm:grid-cols-2 gap-6">
-            {higlights.map((item, idx) => (
+            {highlights.map((item, idx) => (
               <div
                 key={idx}
                 className="glass p-6 rounded-2xl animate-fade-in"
