@@ -93,7 +93,7 @@ export const Hero = () => {
               >
                 Contact <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton href="https://drive.google.com/file/d/1s9_cRwi1KpjqksvhYiDtPtdRYfgUu-uj/view?usp=sharing">
+              <AnimatedBorderButton href="https://drive.google.com/file/d/1hOoejZklEgCFIYO2pR08x2-EEymgsnuE/view?usp=sharing">
                 <Download className="w-5 h-5" />
                 View Resume
               </AnimatedBorderButton>
