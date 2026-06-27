@@ -67,19 +67,19 @@ export const Hero = () => {
             {/* headline*/}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">Digital</span>
+                Web. <span className="text-primary glow-text">Mobile.</span>
                 <br />
-                experiences with
+                AI.
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  precision
+                  One Developer.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I am Vanessa Paul - a full-stack developer specializing both
-                in mobile development and web development. Proficient in Python,
-                Django, Flutter, React. Strong problem solving skills and highly
-                performant applications.
+                I'm Vanessa Paul. I build web and mobile software that works — 
+award-winning platforms in telehealth, fintech, and agritech, 
+using Flutter, Django, React, and Python. I don't just write code. 
+I solve problems.
               </p>
             </div>
 
@@ -128,10 +128,11 @@ export const Hero = () => {
             <div className="relative glass max-w-md mx-auto rounded-3xl p-2">
               <div className="relative glass roudned-3xl p-2 glow-border">
                <img
-  src="/088A0176.jpg"
+  src="/van.jpg"
   alt="Vanessa"
-  className="w-full aspect-[4/5] object-cover rounded-2xl bg-surface [mask-image:linear-gradient(to_bottom,black_60%,transparent_100%)] [-webkit-mask-image:linear-gradient(to_bottom,black_60%,transparent_100%)]"
-/>
+className="w-full aspect-[4/5] object-cover rounded-2xl bg-surface saturate-[0.85] contrast-[1.05]
+  [mask-image:linear-gradient(to_bottom,black_60%,transparent_100%)]
+  [-webkit-mask-image:linear-gradient(to_bottom,black_60%,transparent_100%)]"/>
 
                 {/* floating badge */}
                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
@@ -144,7 +145,7 @@ export const Hero = () => {
                 </div>
                 {/* stats badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float  animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">3+</div>
+                  <div className="text-2xl font-bold text-primary">2+</div>
                   <div className="text-xs text-muted-foreground">
                     {" "}
                     Years experience

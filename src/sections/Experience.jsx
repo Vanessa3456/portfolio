@@ -3,8 +3,8 @@ const experiences = [
     period: "2025 - Present",
     role: "Mobile Application Developer",
     company: "Freelancer",
-    description:
-      "Engineered an Android application designed for farmers to streamline agricultural tendering. Handled both frontend and backend integration, ensuring a smooth user experience and direct APK distribution.",
+     description: "Built and shipped an Android app for farmers to manage agricultural tenders — handled everything from Flutter frontend to Supabase backend and direct APK distribution.",
+
     technologies: ["Flutter", "Supabase", "Dart", "Netlify"],
 
     current: true,
@@ -13,8 +13,8 @@ const experiences = [
     period: "2025 - 2026",
     role: "Full-Stack Developer Intern",
     company: "Jumuisha Limited",
-    description:
-      "Architected and developed a digital savings and wallet management platform. Built a robust Django/PostgreSQL backend with 15+ REST endpoints to support complex wallet logic and secure transactions.",
+     description: "Architected a digital savings platform from scratch. 15+ REST endpoints, complex wallet logic, secure transactions — Django and PostgreSQL doing the heavy lifting.",
+
     technologies: ["Python", "Django", "Flutter", "PostgreSQL", "Firebase"],
     current: false,
   },
@@ -23,8 +23,8 @@ const experiences = [
     role: "Research Lead & Backend Developer",
 
     company: "KamiLimu",
-    description:
-      "Led a development team to architect a low-latency counseling platform. Configured Supabase for real-time database subscriptions and implemented WebRTC for seamless video streaming.",
+      description: "Led the team that built Pendo — a low-latency counseling platform with WebRTC video and real-time Supabase state. Shipped to 50 pilot users. Won a Certificate of Excellence.",
+
     technologies: ["React", "TypeScript", "Node.js", "Supabase", "WebRTC"],
 
     current: false,
@@ -42,21 +42,19 @@ export const Experience = () => {
             Career Journey
           </span>
           <h2 className="text-3xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-            Experience that {""}
+            Built. {""}
             <span className="font-serif italic font-normal text-white">
-              speaks volumes
+              Proven.
             </span>
           </h2>
-          <p className="text-muted-foreground animate-fade-in animation-delay-200 ">
-            A timeline of my professional growth, from mastering core concepts
-            to architecting robust backends and shipping cross-platform
-            applications that solve real-world problems.
-          </p>
+          <p className="text-muted-foreground animate-fade-in animation-delay-200">
+  Three roles. Real systems. Farmers, students, and savers all use something I helped build.
+</p>
         </div>
         {/* timeline */}
 
         <div className="relative">
-          <div className="timeline-glow absolute left-0 md:left-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-primary/60 via-primary/30 t0-transparent md:-translate-x-1/2 shadow-[0_0_25px_rgba(32, 178,166,0.8)]" />
+          <div className="timeline-glow absolute left-0 md:left-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-primary/60 via-primary/30 to-transparent md:-translate-x-1/2 shadow-[0_0_25px_rgba(32, 178,166,0.8)]" />
 
           {/* experience items */}
           <div className="space-y-12">
