@@ -14,7 +14,7 @@ const highlights = [
   {
     icon: Users,
     title: "Executive Leader",
-    description: "VP of 6,000+ students. The hardest bugs to fix are people problems.",
+    description: "VP of 26,000+ students. The hardest bugs to fix are people problems.",
   },
   {
     icon: Lightbulb,

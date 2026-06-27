@@ -130,9 +130,12 @@ I solve problems.
                <img
   src="/van.jpg"
   alt="Vanessa"
-className="w-full aspect-[4/5] object-cover rounded-2xl bg-surface saturate-[0.85] contrast-[1.05]
-  [mask-image:linear-gradient(to_bottom,black_60%,transparent_100%)]
-  [-webkit-mask-image:linear-gradient(to_bottom,black_60%,transparent_100%)]"/>
+  loading="eager"
+  fetchPriority="high"
+  className="w-full aspect-[4/5] object-cover object-top rounded-2xl bg-surface 
+    [mask-image:linear-gradient(to_bottom,black_60%,transparent_100%)] 
+    [-webkit-mask-image:linear-gradient(to_bottom,black_60%,transparent_100%)]"
+/>
 
                 {/* floating badge */}
                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
